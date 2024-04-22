@@ -1,0 +1,42 @@
+main {
+  padding: 3rem 0;
+}
+
+.week {
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.121);
+  background-color: #fff;
+  max-width: 800px;
+}
+
+.week h1 {
+  color: #303030;
+  border-bottom: 2px solid #e2e2e2;
+  padding-bottom: 0.5rem;
+}
+
+.week p,
+.week li,
+.week h2 {
+  color: #474747;
+}
+
+.week ul {
+  padding-left: 20px;
+}
+
+.week pre {
+  background-color: #f3f3f3;
+  border-left: 4px solid rgb(238, 132, 51);
+}
+
+.week pre {
+  padding: 15px;
+  overflow-x: auto;
+}
+
+.week code {
+  padding: 2px 4px;
+  font-size: 90%;
+}
