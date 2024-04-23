@@ -1,0 +1,50 @@
+{
+  "week7Technical": {
+    "title": "Week 7 Technical",
+    "imageSource": "assets/code.jpg",
+    "description": "What is Pseudocode?",
+    "date": "April 20, 2024"
+  },
+  "week7": {
+    "title": "Week 7",
+    "imageSource": "assets/tic-tac-toe.png",
+    "description": "Tired of Vanilla!",
+    "date": "April 20, 2024"
+  },
+  "week6": {
+    "title": "Week 6",
+    "imageSource": "assets/weather.png",
+    "description": "I'm a Programmer",
+    "date": "April 13, 2024"
+  },
+  "week5": {
+    "title": "Week 5",
+    "imageSource": "assets/mind-reader.png",
+    "description": "Buoyant",
+    "date": "April 2, 2024"
+  },
+  "week4": {
+    "title": "Week 4",
+    "imageSource": "assets/clock.png",
+    "description": "A New Chapter",
+    "date": "March 30, 2024"
+  },
+  "week3": {
+    "title": "Week 3",
+    "imageSource": "assets/html-css-js.jpg",
+    "description": "Finally Functioning!",
+    "date": "March 22, 2024"
+  },
+  "week2": {
+    "title": "Week 2",
+    "imageSource": "assets/bird-watching-site.png",
+    "description": "A Taste For Style",
+    "date": "March 15, 2024"
+  },
+  "week1": {
+    "title": "Week 1",
+    "imageSource": "assets/My_Wife_And_Daughter.jpg",
+    "description": "Who am I?",
+    "date": "March 8, 2024"
+  }
+}

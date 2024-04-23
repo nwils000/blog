@@ -1,7 +1,11 @@
+import { IntroductoryHeader } from './IntroductoryHeader';
+import BlogPostCardWrapper from './BlogPostCardWrapper';
+
 function App() {
   return (
     <>
-      <div>Hi</div>
+      <IntroductoryHeader />
+      <BlogPostCardWrapper />
     </>
   );
 }

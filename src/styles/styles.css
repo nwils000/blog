@@ -1,0 +1,216 @@
+@import './normalize.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: rgb(243, 243, 243);
+}
+
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  line-height: 25px;
+  margin-top: 0.6rem;
+}
+
+li {
+  padding: 0.3rem;
+}
+
+/* Header Styles */
+
+.my-name {
+  background: white;
+  padding: 3.8rem 0 1.8rem 5rem;
+}
+
+header h1 {
+  font-family: 'Borel', cursive;
+  margin: 0;
+  color: rgb(238, 132, 51);
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+.intro-statement {
+  padding: 3rem 5rem;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size: 1.4rem;
+}
+
+/* END header styles */
+
+/* Main Styles */
+
+main {
+  background: linear-gradient(
+    0deg,
+    rgba(243, 243, 243, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+/* END main styles */
+
+/* Card Styles */
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5rem;
+  row-gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-card {
+  width: 23rem;
+  height: 29rem;
+  background: white;
+  position: relative;
+  margin: auto;
+}
+
+.card-content {
+  padding-left: 2rem;
+  padding-top: 0.6rem;
+}
+
+.card-content h2 {
+  font-size: 1.2rem;
+  color: rgb(238, 132, 51);
+}
+
+.card-content p:first-of-type {
+  font-size: 1.5rem;
+  line-height: 0.6;
+  margin-top: 1.2rem;
+  font-weight: 300;
+}
+
+.card-content p:nth-of-type(2) {
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.cover-image-container {
+  position: relative;
+  height: 19rem;
+  width: 23rem;
+}
+
+.cover-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 1;
+}
+
+.cover-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.cover-image-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(238, 132, 51, 0.56) 0%,
+    rgba(238, 132, 51, 0.094) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.blog-card:hover {
+  cursor: pointer;
+}
+
+.blog-card:hover .cover-image-overlay::before {
+  opacity: 1;
+}
+
+/* END card styles */
+
+@media only screen and (max-width: 1450px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1035px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  .cards-container {
+    padding: 2rem;
+  }
+  .card-content {
+    padding-left: 1.7rem;
+    padding-top: 0.5rem;
+  }
+  .blog-card {
+    width: 18rem;
+    height: 23rem;
+  }
+  .cover-image-container {
+    position: relative;
+    height: 15rem;
+    width: 18rem;
+  }
+  .card-content p:nth-of-type(2) {
+    margin-top: 1.1rem;
+    font-size: 0.8rem;
+  }
+  .card-content p:first-of-type {
+    font-size: 1.2rem;
+    line-height: 0.35;
+    margin-top: 0.7rem;
+  }
+  .card-content h2 {
+    font-size: 1rem;
+  }
+  .my-name {
+    padding: 3rem 0 0.95rem 2.65rem;
+  }
+  .intro-statement {
+    padding: 1.6rem 2.65rem;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 1.3rem;
+  }
+  header h1 {
+    font-size: 1.85rem;
+  }
+}

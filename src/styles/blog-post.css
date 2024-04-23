@@ -1,3 +1,17 @@
+@import './normalize.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: rgb(243, 243, 243);
+}
+
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
 main {
   padding: 3rem 0;
 }
@@ -24,19 +38,4 @@ main {
 
 .week ul {
   padding-left: 20px;
-}
-
-.week pre {
-  background-color: #f3f3f3;
-  border-left: 4px solid rgb(238, 132, 51);
-}
-
-.week pre {
-  padding: 15px;
-  overflow-x: auto;
-}
-
-.week code {
-  padding: 2px 4px;
-  font-size: 90%;
 }

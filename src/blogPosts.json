@@ -1,0 +1,118 @@
+{
+  "week1": {
+    "title": "Who am I?",
+    "introParagraph": "This week was about getting acquainted with new learning materials and reflecting on personal expectations and discoveries.",
+    "headings": [
+      "Was your first week what you expected? Why? Why not?",
+      "What are you excited or eager to learn more about?",
+      "What is something about you that can only be learned by reading this blog?",
+      "Cool Code Snippet"
+    ],
+    "paragraphs": [
+      "Honestly, I had no idea what to expect. I've been pleased by the structure and flow of the work so far. I have learned a lot of things I did not know before. I expected to learn a lot; I just wasn't sure exactly how it was going to happen!",
+      "I'm very eager to learn Python and Django. I know it's a very marketable skillset to have and it opens up a lot of fun opportunities!",
+      "Here's a quick list of some interesting things about me: I have a 1-year-old daughter named Blake. I've been married to my wife Blair for 2 years. I have the unofficial record for the fastest person to eat a 3 way at Skyline Chili (44 seconds) 💪. I was a cheerleader in high school and coached cheerleading afterwards.",
+      "function highFive(nathanDidAGoodJobOnHisBlog) {\n   if (nathanDidAGoodJobOnHisBlog) {\n     return 'High Five!';\n   } else {\n     return '*Nathan Cries*';\n   }\n }\n // console.log(highFive(true)) || console.log(highFive(false))"
+    ]
+  },
+  "week2": {
+    "title": "A Taste for Style",
+    "introParagraph": "This week, I reflected on my current capabilities and challenges within coding, specifically focusing on HTML and CSS, and how I approach problem-solving.",
+    "headings": [
+      "What is something you wish you could do but currently do not have the coding skills to accomplish?",
+      "What are you struggling with?",
+      "How do you solve a problem?",
+      "What methods do you use to help yourself get unstuck?"
+    ],
+    "paragraphs": [
+      "There’s a lot I wish I could do but, when it comes to specifically HTML and CSS, I wish I knew more about what was going on under the hood so that when I run into weird errors or problems, I could better troubleshoot them.",
+      "I’m currently not struggling too bad, but I have run into the problem of getting ahead of myself and trying to learn/comprehend things that are too far beyond my skill set, and it stresses me out.",
+      "I solve a problem by thinking it through simply, and writing down the large ideas of what I want to accomplish and then I tackle that step-by-step. I always try to get context before I hyperfocus on the first solution that comes to my head.",
+      "I tried to move on to something else and then come back to it. Also getting more context and doing more research, isolate the problem as well and take away as many factors as possible."
+    ]
+  },
+  "week3": {
+    "title": "A New Chapter",
+    "introParagraph": "What was helpful during onboarding working remotely? What hindered your progress during onboarding? How did you overcome challenges during onboarding?",
+    "headings": [
+      "What I Found Helpful Working Remotely",
+      "What Hindered My Progress",
+      "Overcoming Challenges"
+    ],
+    "paragraphs": [
+      "I found separating myself from distractions to be key when working remotely. Especially while working on a project, it's important for me to give it my full attention. I achieved this by working at the library or at night when everyone else is asleep.",
+      "The biggest blocker to my progress during onboarding was not properly pseudo-coding. I get too anxious to start coding that I skip spending adequate time planning it out beforehand. This led to logic issues, especially with my alarm clock project, that took me hours of debugging which could have been avoided by proper pseudo-coding.",
+      "I overcame challenges by being very active on Slack, reaching out for help, and diving into resources on topics I wasn't familiar with."
+    ]
+  },
+  "week4": {
+    "title": "A New Chapter",
+    "introParagraph": "Reflecting on my onboarding experience, I contemplate what was helpful while working remotely, what hindered my progress, and how I overcame those challenges.",
+    "headings": [
+      "What I Found Helpful Working Remotely",
+      "What Hindered My Progress",
+      "Overcoming Challenges"
+    ],
+    "paragraphs": [
+      "I found separating myself from distractions to be key when working remotely. It's especially important for me to give full attention to my projects. I managed this by working at the library or at night when it was quieter, allowing me to focus completely.",
+      "The biggest blocker during onboarding was not properly pseudo-coding. The eagerness to jump into coding meant I didn't spend enough time planning. This led to logic issues in my projects, like the alarm clock, which required extensive debugging that could have been avoided with more thorough pseudo-coding.",
+      "I overcame challenges by being very active on Slack, reaching out for help, and diving into resources about topics I was less familiar with. This proactive approach was crucial for navigating through the difficulties I faced."
+    ]
+  },
+  "week5": {
+    "title": "Buoyant",
+    "introParagraph": "This week has been amazing. Each morning, I'm excited to go to class, absorbing an incredible amount of information faster than I ever have before. Once I'm home, I find myself having to consciously stop from spending the entire evening coding—I'm even dreaming in code! This past week has surpassed my expectations, I feel buoyant and full of optimism.",
+    "headings": [
+      "What held me back this week?",
+      "What I wish to learn?",
+      "My motivation for web development?"
+    ],
+    "paragraphs": [
+      "Rushing into the coding phase was my main setback. I realized too late that dedicating more time to planning and pseudo-coding would have prevented the extensive refactoring and overanalysis that consumed two-thirds of my project time.",
+      "I’m looking to deepen my understanding of JSON. It was overlooked in my recent project, yet it's very important for server communication",
+      "I'm driven by a desire to create work that stands out, I want to blend creativity with innovation, all while being financially rewarded. It’s the thrill of seeing my skills directly translate into success that excites me."
+    ]
+  },
+  "week6": {
+    "title": "I'm a Programmer",
+    "introParagraph": "This week, I truly feel as though I've crossed some very important barriers in my understanding. Now, I think I'm finally confident enough to call myself a programmer.",
+    "headings": [
+      "What things do I feel confident doing?",
+      "What did I learn that helped me understand the development process?",
+      "What does it mean to develop good code?",
+      "What does it mean to be a good developer?",
+      "What is one thing that programmers hate doing?",
+      "What am I excited to learn moving forward?"
+    ],
+    "paragraphs": [
+      "I'm beginning to see JavaScript not just as code, but as clear and understandable English. Objects, arrays, functions, methods, parameters, loops, statements, expressions—all of it now makes perfect sense to me.",
+      "Learning how to effectively use functions to create DRY (Don't Repeat Yourself) code taught me how to streamline vanilla JavaScript development. Also, using APIs and Node packages showed me that it's okay to integrate other people's code into my projects.",
+      "Developing good code means three key things: #1 it has to work, #2 it has to be DRY, #3 it has to be easily readable.",
+      "A good developer can code quickly, knows where to look and how to solve problems, and can debug effectively. Most importantly, a good developer delivers quality code that not only works but can also be updated and read by anyone.",
+      "Programmers hate typing.",
+      "Object-oriented programming has really clicked for me. I'm eager to push my skills further, focusing on creating super DRY code that is efficiently organized."
+    ]
+  },
+  "week7": {
+    "title": "Tired of Vanilla!",
+    "headings": ["Javascript", "The Job Search"],
+    "paragraphs": [
+      "This week with JavaScript has been a rollercoaster! I'm starting to feel the burnout from using plain vanilla JavaScript, but there's light at the end of the tunnel because we're jumping into React next week, which I absolutely love! The biggest takeaway for me this week is that almost everything in JavaScript is an object... functions, arrays, etc. This realization has shifted how I understand and follow JavaScript code, making unfamiliar features more approachable. I love JavaScript, but manual DOM manipulation isn't my favorite, which is why I'm so excited to start working with React!",
+      "Everyone keeps telling me that finding a job won't be a problem, but I can't help feeling skeptical. Is it just my insecurities? Despite these doubts, I'm pushing myself to network more actively, especially on LinkedIn. Just last week, I had lunch with the CEO of a local tech company. They aren't hiring junior developers right now, but things might change by the time I finish my bootcamp. We had a conversation, and he wanted to keep in touch. No promises, but it's given me a huge boost and the motivation to give my all to this bootcamp and my job search. Even though I'm naturally pessimistic, the experiences I'm gaining are slowly but surely helping me shed that negativity."
+    ]
+  },
+  "week7Technical": {
+    "title": "What is Pseudocode?",
+    "introParagraph": "Pseudocode has been a big focus for me this week. Every day, I've been using it to outline the logic of my projects before I start coding. This approach has drastically improved how I handle complex programming tasks, making me more productive and my code more manageable.",
+    "headings": [
+      "How Pseudocode Has Improved My Coding",
+      "The Importance of Pseudocode in My Programming Routine",
+      "Enhancing My Pseudocode Skills"
+    ],
+    "paragraphs": [
+      "At first, I wasn't convinced that spending time writing pseudocode would be worthwhile. But it didn't take long to see its benefits. Pseudocode has saved me from countless hours of backtracking and redoing my work. By clearly defining my thoughts and the flow of operations in simple English first, I've been able to spot and address problems early on.",
+      "I now see pseudocode as more than just a preliminary step but it's a crucial part of my coding process. It helps me layout and think through my projects, making the actual coding much smoother. It's also been great for working with others, as it makes my thought process clear and easy to follow.",
+      "Moving forward, my goal is to deepen my understanding and use of pseudocode. I want to develop more comprehensive and precise pseudocode for all my projects. By doing so, I believe I can make my coding process not only faster but also significantly more accurate and less prone to errors."
+    ]
+  }
+}
