@@ -1,11 +1,9 @@
+import NavBar from './NavBar';
+
 export function IntroductoryHeader() {
   return (
     <header>
-      <div className="my-name">
-        <a href="#">
-          <h1>{`Nathan Wilson`}</h1>
-        </a>
-      </div>
+      <NavBar />
       <div className="intro-statement">
         <p>
           {`This blog documents my path from a beginner in front-end web
