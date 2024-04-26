@@ -32,17 +32,30 @@ li {
 
 /* Header Styles */
 
-.my-name {
+.navbar {
   background: white;
-  padding: 3.8rem 0 1.8rem 5rem;
+  padding: 3.8rem 5rem 1.8rem 5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-header h1 {
+.navbar h1 {
   font-family: 'Borel', cursive;
-  margin: 0;
   color: rgb(238, 132, 51);
+  margin: 0;
   font-weight: 200;
   font-size: 3rem;
+}
+
+.navbar-about-me {
+  color: rgb(238, 132, 51);
+  font-size: 2rem;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar-about-me:hover {
+  color: rgba(238, 132, 51, 0.786);
 }
 
 .intro-statement {

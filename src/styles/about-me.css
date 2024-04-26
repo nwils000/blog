@@ -1,0 +1,37 @@
+@import './normalize.css';
+
+.about-me-container {
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background: #ffffff; /* pure white background for a clean look */
+  padding: 40px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 960px;
+  margin: 50px auto;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.about-me-container:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.intro-statement p {
+  color: #333333; /* dark gray for better readability */
+  font-size: 18px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.intro-statement svg {
+  flex-shrink: 0;
+  margin-right: 20px;
+}

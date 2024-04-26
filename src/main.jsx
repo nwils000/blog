@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import App from './components/App.jsx';
 import { BlogPost } from './components/BlogPost.jsx';
+import AboutMe from './components/AboutMe.jsx';
 import './styles/styles.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import weeklyBlogs from './blogPosts.json';
@@ -11,6 +12,10 @@ let routes = [
   {
     path: '/',
     element: <App />,
+  },
+  {
+    path: '/about',
+    element: <AboutMe />,
   },
 ];
 for (let key in weeklyBlogs) {
