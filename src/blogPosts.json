@@ -114,5 +114,19 @@
       "I now see pseudocode as more than just a preliminary step but it's a crucial part of my coding process. It helps me layout and think through my projects, making the actual coding much smoother. It's also been great for working with others, as it makes my thought process clear and easy to follow.",
       "Moving forward, my goal is to deepen my understanding and use of pseudocode. I want to develop more comprehensive and precise pseudocode for all my projects. By doing so, I believe I can make my coding process not only faster but also significantly more accurate and less prone to errors."
     ]
+  },
+  "week8": {
+    "title": "How to React?",
+    "introParagraph": "This week, using React, I created a fake restaurant's site based around a menu API.",
+    "headings": [
+      "Are JavaScript Frameworks User-Friendly?",
+      "Exploring React and Possibly Next.js",
+      "Planning Finance Tracking Features with Rechart"
+    ],
+    "paragraphs": [
+      "From my experience, React simplifies the development process once you understand its syntax and flow. It provides built-in functionalities for many common issues faced in vanilla JavaScript, making it an amazing tool for developers familiar with its environment.",
+      "Currently, my focus is on React, which I love because of it's robust capabilities for building user interfaces. After the bootcamp, I'm excited to start experimenting with Next.js, hoping it will allow for even more efficient project development.",
+      "I'm looking to improve my capstone project with financial tracking capabilities for managers using Rechart. This tool will let me present financial data through interactive and visually appealing charts."
+    ]
   }
 }

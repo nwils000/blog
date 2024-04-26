@@ -1,4 +1,10 @@
 {
+  "week8": {
+    "title": "Week 8",
+    "imageSource": "assets/earth-food.png",
+    "description": "How to React?",
+    "date": "April 26, 2024"
+  },
   "week7Technical": {
     "title": "Week 7 Technical",
     "imageSource": "assets/code.jpg",
