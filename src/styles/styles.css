@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
-html {
-  background: rgb(243, 243, 243);
+body {
+  font-family: 'Merriweather', serif;
+  color: #d3d9d4;
+  font-weight: 300;
 }
 
-body {
-  font-family: 'Quattrocento Sans', sans-serif;
+h1,
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-weight: 500;
 }
 
 h2 {
@@ -18,44 +23,16 @@ h2 {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 p {
   line-height: 25px;
   margin-top: 0.6rem;
+  letter-spacing: 2px;
 }
 
 li {
   padding: 0.3rem;
-}
-
-/* Header Styles */
-
-.navbar {
-  background: white;
-  padding: 3.8rem 5rem 1.8rem 5rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.navbar h1 {
-  font-family: 'Borel', cursive;
-  color: rgb(238, 132, 51);
-  margin: 0;
-  font-weight: 200;
-  font-size: 3rem;
-}
-
-.navbar-about-me {
-  color: rgb(238, 132, 51);
-  font-size: 2rem;
-  font-weight: 600;
-  transition: 0.2s ease-in-out;
-}
-
-.navbar-about-me:hover {
-  color: rgba(238, 132, 51, 0.786);
 }
 
 .intro-statement {

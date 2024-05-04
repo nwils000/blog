@@ -1,17 +1,27 @@
 import ReactDOM from 'react-dom/client';
-import App from './components/App.jsx';
+import Portfolio from './components/portfolio/Portfolio.jsx';
 import { BlogPost } from './components/BlogPost.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import './styles/styles.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import weeklyBlogs from './blogPosts.json';
+import NavBar from './components/NavBar.jsx';
 
-const site = import.meta.env.BASE_URL;
+export function Layout() {
+  return (
+    <div style={{ display: 'flex' }}>
+      <NavBar />
+      <div style={{ width: '100vw', marginLeft: '10rem' }}>
+        <Outlet />
+      </div>
+    </div>
+  );
+}
 
 let routes = [
   {
     path: '/',
-    element: <App />,
+    element: <Portfolio />,
   },
   {
     path: '/about',
@@ -32,9 +42,12 @@ for (let key in weeklyBlogs) {
   });
 }
 
-const router = createBrowserRouter(routes, {
-  basename: site,
-});
+const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: routes,
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
