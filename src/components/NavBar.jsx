@@ -15,7 +15,9 @@ export default function NavBar() {
         <Link className="navbar-links">Contact</Link>
       </div>
       <div className="blog-link">
-        <Link className="navbar-links">Blog</Link>
+        <Link to="blog" className="navbar-links">
+          Blog
+        </Link>
       </div>
     </div>
   );

@@ -1,9 +1,6 @@
-import NavBar from './NavBar';
-
 export function IntroductoryHeader() {
   return (
     <header>
-      <NavBar />
       <div className="intro-statement">
         <p>
           {`This blog documents my path from a beginner in front-end web

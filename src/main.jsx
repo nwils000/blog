@@ -6,6 +6,7 @@ import './styles/styles.css';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import weeklyBlogs from './blogPosts.json';
 import NavBar from './components/NavBar.jsx';
+import Blog from './components/Blog.jsx';
 
 export function Layout() {
   return (
@@ -22,6 +23,10 @@ let routes = [
   {
     path: '/',
     element: <Portfolio />,
+  },
+  {
+    path: '/blog',
+    element: <Blog />,
   },
   {
     path: '/about',

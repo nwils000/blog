@@ -1,12 +1,10 @@
 import { FaReact } from 'react-icons/fa';
 import { SiDjango } from 'react-icons/si';
-import NavBar from './NavBar';
 import '../styles/about-me.css';
 
 const AboutMe = () => {
   return (
     <>
-      <NavBar />
       <div className="about-me-container">
         <section className="content">
           <div className="intro-statement">

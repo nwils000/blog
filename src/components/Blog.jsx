@@ -1,7 +1,7 @@
 import { IntroductoryHeader } from './IntroductoryHeader';
 import BlogPostCardWrapper from './BlogPostCardWrapper';
 
-function App() {
+function Blog() {
   return (
     <>
       <IntroductoryHeader />
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default Blog;
