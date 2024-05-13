@@ -128,5 +128,39 @@
       "Currently, my focus is on React, which I love because of it's robust capabilities for building user interfaces. After the bootcamp, I'm excited to start experimenting with Next.js, hoping it will allow for even more efficient project development.",
       "I'm looking to improve my capstone project with financial tracking capabilities for managers using Rechart. This tool will let me present financial data through interactive and visually appealing charts."
     ]
+  },
+  "week9": {
+    "title": "CLIs and State Management in React",
+    "introParagraph": "This week, I explored React's state management techniques, focusing on the `useReducer` and `useContext` hooks.",
+    "headings": [
+      "What have you learned about CLIs? Do you think they are scary?",
+      "If you were to build a CLI, what would it do?",
+      "List some ideas that without a Framework, would take you a long time to code.",
+      "How does `useReducer` change the way you handle state in React applications?",
+      "What are the advantages of combining `useContext` with `useReducer` for state management in large applications?"
+    ],
+    "paragraphs": [
+      "CLIs are just a text interface to interact with your computer. They don't scare me; I think the basic CLI commands are pretty simple to grasp but I haven't explored anything too complex yet. I’m sure diving deeper will be incredibly beneficial for backend development.",
+      "If I created a CLI, it would enable running text commands to navigate through files and launch applications. Just a straightforward, efficient tool for developers.",
+      "Trying to code a social media platform without a framework would be very hard. Managing all the data flow, user interactions, and dynamic elements would be overwhelming without the structured support of a framework.",
+      "`useReducer` functions similarly to `useState` but gives a more organized approach by centralizing all state logic in one place. I really enjoy using it because it helps managing state less convoluted, especially in complex components.",
+      "Using both `useReducer` and `useContext` together is really efficient. You get the structured and centralized state management of `useReducer` along with the convenience of `useContext`, which allows you to avoid the dreaded prop drilling that comes with just `useState`. This combination simplifies passing state through your components."
+    ]
+  },
+  "week10": {
+    "title": "Learning Python",
+    "introParagraph": "This week we started learning Python. I learned a few things about myself and how I operate this week.",
+    "headings": [
+      "First Week Experience",
+      "Excitement for Learning",
+      "Coding Habits",
+      "Project Highlight"
+    ],
+    "paragraphs": [
+      "Honestly, I was nervous to learn a new language because I felt like there is still so much to learn about JavaScript (JS) and I’ve been learning it for a while now. However, the transition went surprisingly smooth. I easily picked up the nuances between the languages and can easily switch between JavaScript and Python now.",
+      "I'm excited to delve deeper into Python and explore its applications, especially in backend development with Django. The more I learn, the more confident I feel about my coding skills.",
+      "I have to watch how I code. I tend to stick with what I know. For example, I was completely content just using for loops to iterate over arrays and objects in JS but I had to force myself to use the built-in methods. Now I love them and hardly ever use traditional for loops. This week, I created a blackjack terminal game in Python. I made it in about 2 hours with a functional programming approach. Then I caught myself getting too comfortable and forced myself to only use classes to learn Object-Oriented Programming (OOP). It took me 2 days to get as far as I did staying in my comfort zone. I need to consciously decide to take the seemingly harder routes that I know will be good for me and the projects in the long run.",
+      "Overall, this week was great and I learned a lot about Python and OOP. I’m feeling really confident in my skills. I also did super well in a mock JS interview with Ember which boosted my confidence. I can’t wait to keep learning more about Python and backend development!"
+    ]
   }
 }

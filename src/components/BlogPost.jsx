@@ -1,5 +1,4 @@
 import '../styles/blog-post.css';
-import NavBar from './NavBar';
 
 export function BlogPost({ title, introParagraph, headings, paragraphs }) {
   function displayContent() {
@@ -17,9 +16,7 @@ export function BlogPost({ title, introParagraph, headings, paragraphs }) {
 
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
+      <header></header>
       <main>
         <div className="week">
           <h1>{title}</h1>
