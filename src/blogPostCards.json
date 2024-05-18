@@ -1,4 +1,10 @@
 {
+  "week11": {
+    "title": "Week 11",
+    "imageSource": "assets/Bikes.png",
+    "description": "Diving into Databases!",
+    "date": "May 18, 2024"
+  },
   "week10": {
     "title": "Week 10",
     "imageSource": "https://nathan-portfolio-assets.s3.us-east-2.amazonaws.com/COPIEE.png",

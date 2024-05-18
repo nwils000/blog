@@ -162,5 +162,21 @@
       "I have to watch how I code. I tend to stick with what I know. For example, I was completely content just using for loops to iterate over arrays and objects in JS but I had to force myself to use the built-in methods. Now I love them and hardly ever use traditional for loops. This week, I created a blackjack terminal game in Python. I made it in about 2 hours with a functional programming approach. Then I caught myself getting too comfortable and forced myself to only use classes to learn Object-Oriented Programming (OOP). It took me 2 days to get as far as I did staying in my comfort zone. I need to consciously decide to take the seemingly harder routes that I know will be good for me and the projects in the long run.",
       "Overall, this week was great and I learned a lot about Python and OOP. I’m feeling really confident in my skills. I also did super well in a mock JS interview with Ember which boosted my confidence. I can’t wait to keep learning more about Python and backend development!"
     ]
+  },
+  "week11": {
+    "title": "Diving into Databases",
+    "introParagraph": "This week was the hardest week of the bootcamp for me, with a fast introduction to both SQL and Django's ORM.",
+    "headings": [
+      "Navigating Steep Learning Curves",
+      "Challenges with Django",
+      "Excitement for Database Structures",
+      "Project Momentum"
+    ],
+    "paragraphs": [
+      "Learning SQL on Monday was draining, and then immediately learning how to interact with a SQL database through Django's ORM was a very quick abstraction and difficult to grasp. But I love a challenge, and I'm proud of myself for doing all the reading and getting all the reps in to finally feel confident with the basics of Django and SQL.",
+      "Backend development will take some getting used to, but I have learned that planning out the structure of a relational database really gets me excited. I think it's super fun to think about how everything relates to each other. The biggest sticking point I had was I erroneously linked two tables with a one-to-many relationship, but I really wanted a many-to-many. This caused me to spend all of Thursday refactoring my code.",
+      "I'm still going strong. I felt a little burnt out on reading articles and doing w3school practices, but once we started the project on Wednesday, I got back in the groove!",
+      "All that said, I still can't wait to use React in our projects again. 😂"
+    ]
   }
 }
