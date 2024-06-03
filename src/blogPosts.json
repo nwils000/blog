@@ -130,7 +130,7 @@
     ]
   },
   "week9": {
-    "title": "CLIs and State Management in React",
+    "title": "State.",
     "introParagraph": "This week, I explored React's state management techniques, focusing on the `useReducer` and `useContext` hooks.",
     "headings": [
       "What have you learned about CLIs? Do you think they are scary?",
@@ -148,7 +148,7 @@
     ]
   },
   "week10": {
-    "title": "Learning Python",
+    "title": "Learning Python.",
     "introParagraph": "This week we started learning Python. I learned a few things about myself and how I operate this week.",
     "headings": [
       "First Week Experience",
@@ -164,7 +164,7 @@
     ]
   },
   "week11": {
-    "title": "Diving into Databases",
+    "title": "Databases!",
     "introParagraph": "This week was the hardest week of the bootcamp for me, with a fast introduction to both SQL and Django's ORM.",
     "headings": [
       "Navigating Steep Learning Curves",
@@ -177,6 +177,34 @@
       "Backend development will take some getting used to, but I have learned that planning out the structure of a relational database really gets me excited. I think it's super fun to think about how everything relates to each other. The biggest sticking point I had was I erroneously linked two tables with a one-to-many relationship, but I really wanted a many-to-many. This caused me to spend all of Thursday refactoring my code.",
       "I'm still going strong. I felt a little burnt out on reading articles and doing w3school practices, but once we started the project on Wednesday, I got back in the groove!",
       "All that said, I still can't wait to use React in our projects again. 😂"
+    ]
+  },
+  "week12": {
+    "title": "Database Challenges.",
+    "introParagraph": "This week, I created a backend to attach to my already made frontend restaurant menu application.",
+    "headings": [
+      "Backend Development Update",
+      "Database Design Challenges",
+      "Moving Forward"
+    ],
+    "paragraphs": [
+      "I learned all about Django's ORM and the flow of serializers, views, and models, and how to create endpoints for my frontend to interact with. I learned a lot this week!",
+      "However, I encountered a significant challenge—I greatly overestimated my ability to design and implement a complex database within just two days. The database was complexly nested and relational, which made it difficult to perform CRUD (Create, Read, Update, Delete) actions efficiently. While I was able to handle reading and creating operations, I spent too much time on conceptualizing the project and did not leave myself enough time to execute it adequately.",
+      "Next week, I'm planning to start with a simpler database structure and build from there. This approach should help me manage my time better and achieve more in the execution phase."
+    ]
+  },
+  "week13": {
+    "title": "User Authentication and Django.",
+    "introParagraph": "This past week we learned about user authentication and solidified our knowledge with Django and Django Rest Framework.",
+    "headings": [
+      "Project Overview",
+      "Advancements in Django",
+      "Achievements and Next Steps"
+    ],
+    "paragraphs": [
+      "Our project this week was to create a full stack library management application from scratch with user registration and login using JWT for session management. I feel like Django really clicked for me this week.",
+      "We moved to handling the business logic in a more functional way and it really resonated with me. It’s been exciting to see my understanding of Django deepen, making the framework more intuitive in my projects.",
+      "I was able to get full CRUD working for books and also for book catalogs attached to each profile. I’m feeling really confident in my full stack abilities and I’m pumped to start my final project!"
     ]
   }
 }

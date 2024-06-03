@@ -1,8 +1,20 @@
 {
+  "week13": {
+    "title": "Week 13",
+    "imageSource": "assets/library.png",
+    "description": "User Authentication and Django.",
+    "date": "June 1, 2024"
+  },
+  "week12": {
+    "title": "Week 12",
+    "imageSource": "assets/earth-food-full-stack.png",
+    "description": "Database Challenges.",
+    "date": "May 25, 2024"
+  },
   "week11": {
     "title": "Week 11",
     "imageSource": "assets/Bikes.png",
-    "description": "Diving into Databases!",
+    "description": "Databases!",
     "date": "May 18, 2024"
   },
   "week10": {
@@ -14,7 +26,7 @@
   "week9": {
     "title": "Week 9",
     "imageSource": "https://nathan-portfolio-assets.s3.us-east-2.amazonaws.com/Screenshot+(47).png",
-    "description": "State",
+    "description": "State.",
     "date": "May 4, 2024"
   },
   "week8": {
